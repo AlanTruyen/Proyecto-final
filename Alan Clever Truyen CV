@@ -7,24 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV | Alan Clever Truyen CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/static/css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="/static/css/mediaquery.css">
     <script src="https://kit.fontawesome.com/90a3ea37c8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+   
     <header class="header">
+        <h1 id="proyectofinal"> Proyecto final integrador </h1>
         <nav class="nav">
-    <div class="burger no_activo" id="burger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-    <ul class="nav__list" id="menu">
+    <ul class="nav-links">
         <li class="nav__item active" data-menuanchor="perfil">
             <a href="#perfil"><i class="nav__icon fa-solid fa-house"></i><span>Inicio</span></a>
         </li>
@@ -47,15 +39,17 @@
         
 <section class="section" id="perfil">
     <article class="article profile">
-        <img class="profile__avatar" src="https://lh3.googleusercontent.com/70lS4koNe7gT_X6fiJl-kmujQWtxOGjO63AayciJ8bVDBJm1g46EmwGrt9lYbId-wUnMmvJasbTUElNKrao_kveJO7T8uoK1twmd1yyO3Iw1slJB85odMHJrQ4yyjqgWLBvZzz7Mgh9amS4h80QiHMfJLKlxHDbgLjLfAHaWAWY9-r0BI_YXdCK7ppsDD7wu7kQVqZYDOgTp8TlVbxXZ6eZe-0AUA4jAYF6uerWK_Fxd_5dyUVvUs9UOh3twn7Ml9E-MnxEzR6dG7JjjPnd47dRuXqqQmJkFTzqTOQ4AIxfTugrirlT5McPY6aYmWE2gPQJ-EJ-O3kqIEOPl6yvjUdlRM6k7t7BQ-NWC1QzJiTLEqI-hLVYzazo-UvXvYa-NgjIGpi3YVp3XuMu-SG_E33-lRfMtm7nvvXID6cwm-rvLaY-joGOKJ5M82rNu4yuc_bPy3cmwNvDUDikADk_hO0rWEC55c9g_qO0QARoSdHH069GET2vBxjZ4M_vr7wL6kFo82T3fCsZHa7OZ5oUdg4tEUW3q2sC23OE2HjCcEzsOv2pHQZ5yow0Zr5Z6LhJPaFnHT-RpTv5GgjYc9aM-zvYwJ97wlJb-MTaVSDQldIXGiGHppNNpiU-kTi4a5tP_TX59KbQhuJx230tqkodzpTQmCqdv6hVQahK5F3CP2FlQ-w95RqBZ-8d2nYFSAL8ZiIjFEhhYRm5oUngh17FgkYOdo_7H5rYXSLkYlZT4GZ5hkMOB7oHDQcvYndrprsJ_M1HspVUZ3uIMnJz1e3L0X49QGaoHovJWpvADwqcK31uNYV-B2-CHoJ1aweImbqd6Z7CLUWNUnC2QXPlfrSRBqHZWqiV48kdhPqxDa6wd-7EKGRx7gOQHnuQ2ZMfgNenAlnqBuc3GVAKmo1HmJ8zYIn6jRaJ_vB5EchxD9lh6zIrhYk10Tg=w703-h937-no?authuser=0" alt="Avatar" width="400" height="400">
+        <h4 class="profile__title">Alan Clever Truyen</h4>
+        <p class="profile__description">Programador y desarrollador web<span class="auto__type"></span> </p>
+        <img class="profile__avatar" src="https://lh3.googleusercontent.com/QiRBZq7GorYzSXWdNwxzssu1Tw0-3f45I82VM5dnTm6x5aWokdF0USe_m3lpMDiqgEZtE0nTqQkeLkmsU0OeVf2eAyyrAZ_NgH3nH_KJwEg4tCgTtq6gDlZAt2fRPDPsZvgp0jT9atY=w2400?source=screenshot.guru" alt="Avatar" width="400" height="500">
         <div class="profile__container">
-            <h4 class="profile__title">Alan Clever Truyen</h4>
-            <p class="profile__description">Soy programador y desarrollador web<span class="auto__type"></span> </p>
+
+
         </div>
     </article>
 </section>
-
-        
+<br>
+<hr>     
 <section class="section" id="acerca">
     <article class="article">
         <div class="article__container">
@@ -67,18 +61,9 @@
                 adquirir experiencia ofreciendo todos mis conocimientos obtenidos y mi capacidad de aprendizaje.
             </p>
         </div>
-        <div class="article__container intereses">
-            <h2 class="subtitle intereses">Intereses</h2>
-            <p class="article__description">
-                Me gusta mucho viajar en auto mientras escucho buena musica, mis generos preferidos son el rock y
-                 el metal. De igual manera disfruto mucho el tiempo que paso en la computadora sea aprendiendo o
-                  desarrollando, haciendole limpiesa-mantenimiento del hardware o jugando online con amigos.
-            </p>
-        </div>
-    </article>
-</section>
-       
-
+       <img  src="https://lh3.googleusercontent.com/-RE-EYrR3vuOTSy-qJt9qEpyjG8jFeLGei4y24hP635ZUxcrJ6Zsd7Gm3CuEsSuCDJiOROR6NBHfr0XUARQv8ACfV_MrUrrBeV6UxNIxxUhchUEjcdtval37UEj9gMW95Jg9FkdWd0Q=w2400?source=screenshot.guru" alt="image0" width="400" height="500">          
+<hr>     
+</section>      
         <section class="section" id="estudios">
     <article class="article">
         <h2 class="subtitle">Estudios</h2>
@@ -88,15 +73,16 @@
                     <span>Actualmente cursando Analista Programador Universitario (APU)
                         en la Universidad Nacional de La Plata</span>
                 </span>
-            </li>
+            </li> 
             <li class="list__item">
                 <span class="content">
                     <span>Certificado de curso sep-nov Argentina Programa 2022</span>
                 </span>
             </li>
-
+            <img  src="https://lh3.googleusercontent.com/wadW5fV4Cv0biFeJHMrSShtyBqRHFoWNp9GWg_fvqQc9HAH1q7k4PK5bBIHddKk67grKw7f7MmgSWtTp9TTzn2MDgbHbLQbZOtGubP_YGZqb61fAeCyE_7aVOixfhmU9oVnGF-ZEjh4=w2400?source=screenshot.guru" alt="image1" width="400" height="500">
         </ul>
     </article>
+<hr>
 </section>
 
         
@@ -104,15 +90,34 @@
     <article class="article">
         <h2 class="subtitle">Habilidades</h2>
         <ul class="skills__list">
-            <li class="skill"><img src="https://lh3.googleusercontent.com/TK7uVQzZL3k5L1E43GNcAPqz8QMOUjfY2fWyWeHVaYOytSQOjv2ha1DGMpkmOyFVNdkByRdUSCgzhG3f-XcHwGFjULHRg77gkTrcCvk3eCOpAlsvzhgKfXAb6f7wS3gyb5uOwGtK0VE=w600-h315-p-k" width="40" height="40" alt="python"></li>
-            <li class="skill"><img src="https://lh3.googleusercontent.com/TWQ2Jsk9SGx6EZ3xajolHO9rjCdu-if3h2c-MNywYhB6AA0sb2uR2C_Yg7gEihBJ7_7lJFgSoLQ6EmGn_jDxrGBHMt9SwqeJXjDnPBESr_J86m1pSnk2Qb5rBTF2kldDDnIhHvhxCuk=s225-p-k" width="40" height="40" alt="html"></li>
-            <li class="skill"><img src="https://lh3.googleusercontent.com/UXAsV49fN5RlGlaR-_5BDhA5E3NzQIvjgOxSdagRnnKwqcw3JXNN05L4odiKNO0IpqeBHvHRPMEjp4nGUl6IRopnRSHQe4xFGinFGjgtaAlNcAQn02O9e-DJMTzWU-pP8zRfE4ahrRY=w189-h267-p-k" width="40" height="40" alt="css"></li>
-            <li class="skill"><img src="https://lh3.googleusercontent.com/2hpvf3CCQ_eEBJ9pJsdTegAf4B6qOkCBXdiKMB0zraCWMzBtcTInAknXFVo3ONBtUwN4ta9PMN80givd361p6_z60OVE5i78jKJB_ZLPDmca_8G1-YTbgviIs1OoCMQQpw1iCTSRi1E=s225-p-k" width="40" height="40" alt="javascript"></li>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/TK7uVQzZL3k5L1E43GNcAPqz8QMOUjfY2fWyWeHVaYOytSQOjv2ha1DGMpkmOyFVNdkByRdUSCgzhG3f-XcHwGFjULHRg77gkTrcCvk3eCOpAlsvzhgKfXAb6f7wS3gyb5uOwGtK0VE=w600-h315-p-k" width="40" height="40" alt="python"> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+         <br>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/TWQ2Jsk9SGx6EZ3xajolHO9rjCdu-if3h2c-MNywYhB6AA0sb2uR2C_Yg7gEihBJ7_7lJFgSoLQ6EmGn_jDxrGBHMt9SwqeJXjDnPBESr_J86m1pSnk2Qb5rBTF2kldDDnIhHvhxCuk=s225-p-k" width="40" height="40" alt="html"><i class="fa-solid fa-star"></i></li>
+         <br>   
+            <li class="skill"><img src="https://lh3.googleusercontent.com/UXAsV49fN5RlGlaR-_5BDhA5E3NzQIvjgOxSdagRnnKwqcw3JXNN05L4odiKNO0IpqeBHvHRPMEjp4nGUl6IRopnRSHQe4xFGinFGjgtaAlNcAQn02O9e-DJMTzWU-pP8zRfE4ahrRY=w189-h267-p-k" width="40" height="40" alt="css"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+         <br>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/2hpvf3CCQ_eEBJ9pJsdTegAf4B6qOkCBXdiKMB0zraCWMzBtcTInAknXFVo3ONBtUwN4ta9PMN80givd361p6_z60OVE5i78jKJB_ZLPDmca_8G1-YTbgviIs1OoCMQQpw1iCTSRi1E=s225-p-k" width="40" height="40" alt="javascript"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
         </ul>
-    </article>
-</section>
+        <br>
+        <h4>Experiencia</h4>
+        <p class="article__description">
+            Calculo Binario (2017-2019)
+            Servicio Técnico
+            Reparación-mantenimiento de impresoras fiscales, atención al público e instalación
+            cámaras de seguridad.
+        </p>
+        <p class="article__description">
+            Clever Solutions (2019-Actualidad)
+            Servicio Técnico
+            Emprendimiento propio armado, reparación de PC y venta de insumos
+        </p>
 
-        
+    </article>
+</section> 
+
+<hr>
+     
+<img src="https://lh3.googleusercontent.com/U2RxDRSp1kPKFYJ-JdKKsd_bW_-34dtlH9_zyyG4OMZJpBI_yZl9QdL3vwjvG2qFWa2GSQikXzeHTTIuq-SGY5g8W9LgMmCn1X2lBLtg-sCBinVA5o1qiIXDRjR-g5EjDOeyeWQT1xk=w2400?source=screenshot.guru" alt="Image2" width="400" height="500">
 <section class="section" id="contacto">
     <article class='article'>
         <h2 class="subtitle">Contáctame</h2>
@@ -123,14 +128,17 @@
         <input class="form__input" type="Text" name="name" id="name">
         <label class="form__label" for="name">Nombre</label>
     </div>
+    <br>
     <div class="form__group">
         <input class="form__input" type="email" name="email" id="email">
         <label class="form__label" for="email">Correo</label>
     </div>
+    <br>
     <div class="form__group">
         <input class="form__input" type="text" name="subject" id="subject">
         <label class="form__label" for="subject">Asunto</label>
     </div>
+    <br>
     <div class="form__group">
         <textarea class="form__input text__area" name="text__area" id="text__area"></textarea>
         <label class="form__label" for="text__area">Mensaje</label>
