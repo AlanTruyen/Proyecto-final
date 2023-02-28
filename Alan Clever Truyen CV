@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Alan Clever Truyen CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/mediaquery.css">
+    <script src="https://kit.fontawesome.com/90a3ea37c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+    <div class="burger no_activo" id="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="nav__list" id="menu">
+        <li class="nav__item active" data-menuanchor="perfil">
+            <a href="#perfil"><i class="nav__icon fa-solid fa-house"></i><span>Inicio</span></a>
+        </li>
+        <li class="nav__item" data-menuanchor="acerca">
+            <a href="#acerca"><i class="nav__icon fa-solid fa-message"></i><span>Acerca de mí</span></a>
+        </li>
+        <li class="nav__item" data-menuanchor="estudios">
+            <a href="#estudios"><i class="nav__icon fa-solid fa-book"></i><span>Estudios</span></a>
+        </li>
+        <li class="nav__item" data-menuanchor="habilidades">
+            <a href="#habilidades"><i class="nav__icon fa-solid fa-gear"></i><span>Habilidades</span></a>
+        </li>
+        <li class="nav__item" data-menuanchor="contacto">
+            <a href="#contacto"><i class="fa-solid fa-user-group"></i><span>Contactó</span></a>
+        </li>
+    </ul>
+</nav>
+    </header>
+    <main class="main">
+        
+<section class="section" id="perfil">
+    <article class="article profile">
+        <img class="profile__avatar" src="https://lh3.googleusercontent.com/70lS4koNe7gT_X6fiJl-kmujQWtxOGjO63AayciJ8bVDBJm1g46EmwGrt9lYbId-wUnMmvJasbTUElNKrao_kveJO7T8uoK1twmd1yyO3Iw1slJB85odMHJrQ4yyjqgWLBvZzz7Mgh9amS4h80QiHMfJLKlxHDbgLjLfAHaWAWY9-r0BI_YXdCK7ppsDD7wu7kQVqZYDOgTp8TlVbxXZ6eZe-0AUA4jAYF6uerWK_Fxd_5dyUVvUs9UOh3twn7Ml9E-MnxEzR6dG7JjjPnd47dRuXqqQmJkFTzqTOQ4AIxfTugrirlT5McPY6aYmWE2gPQJ-EJ-O3kqIEOPl6yvjUdlRM6k7t7BQ-NWC1QzJiTLEqI-hLVYzazo-UvXvYa-NgjIGpi3YVp3XuMu-SG_E33-lRfMtm7nvvXID6cwm-rvLaY-joGOKJ5M82rNu4yuc_bPy3cmwNvDUDikADk_hO0rWEC55c9g_qO0QARoSdHH069GET2vBxjZ4M_vr7wL6kFo82T3fCsZHa7OZ5oUdg4tEUW3q2sC23OE2HjCcEzsOv2pHQZ5yow0Zr5Z6LhJPaFnHT-RpTv5GgjYc9aM-zvYwJ97wlJb-MTaVSDQldIXGiGHppNNpiU-kTi4a5tP_TX59KbQhuJx230tqkodzpTQmCqdv6hVQahK5F3CP2FlQ-w95RqBZ-8d2nYFSAL8ZiIjFEhhYRm5oUngh17FgkYOdo_7H5rYXSLkYlZT4GZ5hkMOB7oHDQcvYndrprsJ_M1HspVUZ3uIMnJz1e3L0X49QGaoHovJWpvADwqcK31uNYV-B2-CHoJ1aweImbqd6Z7CLUWNUnC2QXPlfrSRBqHZWqiV48kdhPqxDa6wd-7EKGRx7gOQHnuQ2ZMfgNenAlnqBuc3GVAKmo1HmJ8zYIn6jRaJ_vB5EchxD9lh6zIrhYk10Tg=w703-h937-no?authuser=0" alt="Avatar" width="400" height="400">
+        <div class="profile__container">
+            <h4 class="profile__title">Alan Clever Truyen</h4>
+            <p class="profile__description">Soy programador y desarrollador web<span class="auto__type"></span> </p>
+        </div>
+    </article>
+</section>
+
+        
+<section class="section" id="acerca">
+    <article class="article">
+        <div class="article__container">
+            <h2 class="subtitle about">Acerca de mi</h2>
+            <p class="article__description">
+                Soy programador y desarrollador con conocimiento en Python, JS, HTML, entre otros.
+                Me encanta la programación, busco mejorar día a día aumentando mi conocimiento
+                por medio de cursos o por investigacion en la web.  Busco la oportunidad de crecer en el ámbito laboral para
+                adquirir experiencia ofreciendo todos mis conocimientos obtenidos y mi capacidad de aprendizaje.
+            </p>
+        </div>
+        <div class="article__container intereses">
+            <h2 class="subtitle intereses">Intereses</h2>
+            <p class="article__description">
+                Me gusta mucho viajar en auto mientras escucho buena musica, mis generos preferidos son el rock y
+                 el metal. De igual manera disfruto mucho el tiempo que paso en la computadora sea aprendiendo o
+                  desarrollando, haciendole limpiesa-mantenimiento del hardware o jugando online con amigos.
+            </p>
+        </div>
+    </article>
+</section>
+       
+
+        <section class="section" id="estudios">
+    <article class="article">
+        <h2 class="subtitle">Estudios</h2>
+        <ul class='studies__list'>
+            <li class="list__item">
+                <span class="content">
+                    <span>Actualmente cursando Analista Programador Universitario (APU)
+                        en la Universidad Nacional de La Plata</span>
+                </span>
+            </li>
+            <li class="list__item">
+                <span class="content">
+                    <span>Certificado de curso sep-nov Argentina Programa 2022</span>
+                </span>
+            </li>
+
+        </ul>
+    </article>
+</section>
+
+        
+<section class="section" id="habilidades">
+    <article class="article">
+        <h2 class="subtitle">Habilidades</h2>
+        <ul class="skills__list">
+            <li class="skill"><img src="https://lh3.googleusercontent.com/TK7uVQzZL3k5L1E43GNcAPqz8QMOUjfY2fWyWeHVaYOytSQOjv2ha1DGMpkmOyFVNdkByRdUSCgzhG3f-XcHwGFjULHRg77gkTrcCvk3eCOpAlsvzhgKfXAb6f7wS3gyb5uOwGtK0VE=w600-h315-p-k" width="40" height="40" alt="python"></li>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/TWQ2Jsk9SGx6EZ3xajolHO9rjCdu-if3h2c-MNywYhB6AA0sb2uR2C_Yg7gEihBJ7_7lJFgSoLQ6EmGn_jDxrGBHMt9SwqeJXjDnPBESr_J86m1pSnk2Qb5rBTF2kldDDnIhHvhxCuk=s225-p-k" width="40" height="40" alt="html"></li>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/UXAsV49fN5RlGlaR-_5BDhA5E3NzQIvjgOxSdagRnnKwqcw3JXNN05L4odiKNO0IpqeBHvHRPMEjp4nGUl6IRopnRSHQe4xFGinFGjgtaAlNcAQn02O9e-DJMTzWU-pP8zRfE4ahrRY=w189-h267-p-k" width="40" height="40" alt="css"></li>
+            <li class="skill"><img src="https://lh3.googleusercontent.com/2hpvf3CCQ_eEBJ9pJsdTegAf4B6qOkCBXdiKMB0zraCWMzBtcTInAknXFVo3ONBtUwN4ta9PMN80givd361p6_z60OVE5i78jKJB_ZLPDmca_8G1-YTbgviIs1OoCMQQpw1iCTSRi1E=s225-p-k" width="40" height="40" alt="javascript"></li>
+        </ul>
+    </article>
+</section>
+
+        
+<section class="section" id="contacto">
+    <article class='article'>
+        <h2 class="subtitle">Contáctame</h2>
+        
+            <form class="form" method="POST" action="#contacto" autocomplete="off" id="form">
+    <input type="hidden" name="csrfmiddlewaretoken" value="yoqaYwwzhBzUgSR7asikLYk0B4Mw3yliDqf5t5hehBL0WObJIRWzHWjoEtVhFrLa">
+    <div class="form__group">
+        <input class="form__input" type="Text" name="name" id="name">
+        <label class="form__label" for="name">Nombre</label>
+    </div>
+    <div class="form__group">
+        <input class="form__input" type="email" name="email" id="email">
+        <label class="form__label" for="email">Correo</label>
+    </div>
+    <div class="form__group">
+        <input class="form__input" type="text" name="subject" id="subject">
+        <label class="form__label" for="subject">Asunto</label>
+    </div>
+    <div class="form__group">
+        <textarea class="form__input text__area" name="text__area" id="text__area"></textarea>
+        <label class="form__label" for="text__area">Mensaje</label>
+    </div>
+    <button type="submit" class="form__input button">Enviar</button>
+</form>
+        
+        <i class="boton__link fa-solid fa-link" id="boton__link"></i>
+        <div class="redes" id="redes">
+            <ul class="toolkit">
+                <li class="toolkit__item">
+                    <a href="mailto:alantruyen@gmail.com" class="toolkit__link"><i id='fa-envelope' class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li class="toolkit__item">
+                    <a href="https://github.com/AlanTruyen" class="toolkit__link"><i
+                            class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="toolkit__item">
+                    <a href="https://www.linkedin.com/in/alan-truyen-71507721b/"
+                        class="toolkit__link"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+            <span class='correo'>alantruyen@gmail.com</span>
+            <a href="https://drive.google.com/file/d/1eal3OPbk4vqyq-T8Fp09roZ5upI4Svea/view?usp=share_link" class="download">curriculum vitae</a>
+        </div>
+    </article>
+</section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/static/js/portfolio.js"></script>
+</body>
+
+</html>
